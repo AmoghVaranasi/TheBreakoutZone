@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SaaS</title>
+       <meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/tsawebsite/blockchain.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.container  {
+background: linear-gradient(white, lightblue);
+    }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav1 {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2196c4;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav1 a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+.sidenav1 a:hover {
+    color: #f1f1f1;
+}
+    .container  {
+    background: linear-gradient(white, lightblue);
+    }
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.nav, nav ul{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      nav ul{
+          display: flex;
+          list-style: none;
+          text-align:center;
+      }
+      .li{
+        flex-basis: 20%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+      }
+      nav li:nth-of-type(1){background-color: #2e323c}
+      nav li:nth-of-type(1):hover{
+	background-color: rgba(41,54,59,0.5);
+      }
+      nav li:nth-of-type(2){background-color: #2b4251}
+      nav li:nth-of-type(2):hover{
+	 background-color: rgba(41,54,59,0.5);
+      }
+      nav li:nth-of-type(3){background-color: #4c586f}
+      nav li:nth-of-type(3):hover{
+	 background-color: rgba(41,54,59,0.5);
+	 
+      }
+      nav li:nth-of-type(4){background-color: #5b7d87}
+      nav li:nth-of-type(4):hover{
+	 background-color: rgba(41,54,59,0.5);
+      }
+	     
+      nav li:nth-of-type(5){background-color: #91b3bc}
+      nav li:nth-of-type(5):hover{
+	  background-color: rgba(41,54,59,0.5);
+      }
+      ul li a{
+          position: relative;
+          top: 48%;
+          text-decoration:none;
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+          color:white;
+	}
+	    
+	.a {
+	    flex-basis: 20%;
+            justify-content: center;
+            align-items: center;
+            height:100%;
+	    overflow: hidden;
+    }
+</style>
+    </head>
+     <body>
+         <div class="sidenav1">
+             <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+  <a href="/tsawebsite/Services/IaaS/index.html">IaaS</a>
+  <a href="/tsawebsite/Services/SaaS/index.html">SaaS</a>
+  <a href="/tsawebsite/Services/PaaS/index.html">PaaS</a>   
+  <a href="/tsawebsite/Services/Other/index.html">Other Services</a>   
+</div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <nav class="nav" role="navigation">
+    <ul class="slideInDown animated">
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Analysis/Advantages/index.html" class="nav-items a">Analysis</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Application/index.html" class="nav-item2 a">Applications</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Services/IaaS/index.html" class="nav-item3 a">Services</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Location/Public/index.html" class="nav-item4 a">Location</a></li>
+      <li class="li"><a href="https://teakyung25.github.io/tsawebsite/Requirements/index.html" class="nav-item5 a">Requirements</a></li>
+    </ul>
+  </nav>
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div style="margin-left: 300px;">
+<header class="bgimg-1 w3-display-container w3-grayscale-min">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">SaaS</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">PaaS</span>
+  </div> 
+</header>
+
+
+<div class="container">
+<div style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+        <center><h3>ABOUT</h3></center>
+      <h5>SaaS stands for “software as a service”. This refers to having an alternate way that a person can access software with the goal of provide storage.</h5>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://www.tcc.edu/uploads/images/pages/programs/information-technology/cloud-computing-certificate.jpg" width="700" height="400">
+    </div>
+  </div>
+</div>
+
+
+<div style="padding:128px 16px">
+  <center><h3 class="w3-center">SIMPLE DESCRIPTION</h3></center>
+    <h5>
+        <ul>
+            <li> One of the most common forms </li>
+            <li>Some of the services that major cloud providers have are:</li>
+                <ul>
+                    <li>Application monitoring</li>
+                    <li>Data analytics</li>
+                    <li>Virtual Private Networks</li>
+                </ul>
+            <li>Some Real World examples include:</li>
+                <ul>
+                    <li>Amazon Web Services</li>
+                    <li>Google Cloud Platform</li>
+                </ul>
+        </ul>
+    </div>
+
+    <divstyle="padding:128px 16px">
+  <center><h3 class="w3-center">BENEFITS AND USES</h3></center>
+        <h5><ul>
+            <li>Benefits</li>
+                <ul>
+                    <li>The processing power is supplied by cloud</li>
+                    <li>The application can only be used once the user subscribes</li>
+                    <li>You have to pay for what you use</li>
+                    <li>It is easy to access the additional storage without having to install new hardware or software.</li>
+                    <li>The updates happen automatically and are free of any charge.</li>
+                    <li>The applications can be accessed by any internet device. That can be desktops, smartphones, or tablets.</li>
+                    <li>The applications can be accessed from any location.</li>
+                    <li>Finally, the applications can also be modified to suit anyone's needs.</li>
+                </ul>   
+            <li>Example of when it can be used in business:</li>
+                <ul>
+                    <li>Accounting and invoicing</li>
+                    <li>Tracking sales</li>
+                    <li>Planning</li>
+                    <li>Performance Monitoring</li>
+                    <li>Communications</li>
+                </ul>
+            </ul></h5>
+        </div>
+    </div>
+    </body>
+   </html>
